@@ -1,0 +1,44 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    background-color: #6388ac;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    height: 60vh;
+    background: url('https://source.unsplash.com/1600x900/?shampoo,beauty') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(207, 196, 196);
+}
+
+.product-box {
+    background: #c8c1c1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-box:hover {
+    transform: scale(1.05);
+}
+
+.ingredient-box {
+    background: #a9df35;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.ingredient-box:hover {
+    background: #b1da0e;
+}
