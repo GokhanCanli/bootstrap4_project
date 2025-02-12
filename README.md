@@ -1,1 +1,1 @@
-# bootstrap4_project
+PureGlow Shampoo is a sleek and modern website designed to showcase a premium range of hair care products. Built with HTML, CSS, and Bootstrap, it features a stylish layout with sections on different shampoo types, key ingredients, and an easy contact form.
